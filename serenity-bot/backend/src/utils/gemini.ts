@@ -3,7 +3,7 @@ import { HumanMessage, AIMessage, SystemMessage } from '@langchain/core/messages
 import { EmotionalContext } from '../interfaces/chat.interface';
 
 // Google API Key
-const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY || 'AIzaSyDo6gRYnppU5sAR51kc56pYpGxm_qo27qI';
+const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY || '';
 
 // Define therapist persona
 const THERAPIST_PROMPT = `You are a compassionate mental health therapist named SerenityBot.
